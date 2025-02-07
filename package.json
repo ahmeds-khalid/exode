@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "Exode",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "Exode Launcher",
+  "description": "Serveur Minecraft Roleplay",
+  "author": "Exode",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/ahmeds-khalid/exode",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/ahmeds-khalid/exode/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/ahmeds-khalid/exode.git"
+  },
+  "build": {
+    "appId": "com.exode.launcher",
+    "productName": "Exode Launcher",
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "mac": {
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "icon": "build/icon.png"
+    }
   }
 }
