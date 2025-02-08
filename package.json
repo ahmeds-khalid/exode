@@ -48,20 +48,4 @@
     "type": "git",
     "url": "git+https://github.com/ahmeds-khalid/exode.git"
   },
-  "build": {
-    "appId": "com.exode.launcher",
-    "productName": "Exode Launcher",
-    "directories": {
-      "buildResources": "build"
-    },
-    "win": {
-      "icon": "build/icon.ico"
-    },
-    "mac": {
-      "icon": "build/icon.icns"
-    },
-    "linux": {
-      "icon": "build/icon.png"
-    }
-  }
 }
